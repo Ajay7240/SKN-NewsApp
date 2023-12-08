@@ -1,0 +1,84 @@
+{
+    "status": "ok",
+    "totalResults": 6,
+    "articles": [
+        {
+            "source": {
+                "id": "news-com-au",
+                "name": "News.com.au"
+            },
+            "author": null,
+            "title": "Shock as old Shane Warne tweet comes true",
+            "description": "Shane Warne continues to prove he had one of the greatest cricket brains the sport has ever encountered.",
+            "url": "https://www.news.com.au/sport/cricket/shane-warne-predicted-travis-heads-heroics-way-back-in-2016/news-story/99a39962a5577319a0f8b91ed0007088",
+            "urlToImage": "https://content.api.news/v3/images/bin/618be687f9026b84c39b2fdeeaecec41",
+            "publishedAt": "2023-11-20T06:24:00Z",
+            "content": "Shane Warne continues to prove he had one of the greatest cricket brains the sport has ever encountered.\r\nThe late Australian Spin King delivered once again, with a tweet from seven years ago resurfa… [+2799 chars]"
+        },
+        {
+            "source": {
+                "id": "al-jazeera-english",
+                "name": "Al Jazeera English"
+            },
+            "author": "Al Jazeera Staff",
+            "title": "Australia beat India by six wickets for sixth ICC Cricket World Cup title",
+            "description": "Head and Labuschagne guided Australia’s chase after their bowlers put on a brilliant display to dismiss India for 240.",
+            "url": "http://www.aljazeera.com/sports/2023/11/19/icc-cricket-world-cup-2023-final-australia-beat-india-for-sixth-title",
+            "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2023/11/AP23323576681891-1700409742.jpg?resize=1920%2C1440",
+            "publishedAt": "2023-11-19T15:52:17Z",
+            "content": "Australia have pulled off an upset by beating hosts and undefeated tournament favourites India by six wickets to win the ICC Cricket World Cup 2023 in Ahmedabad and extend their staggering record of … [+3304 chars]"
+        },
+        {
+            "source": {
+                "id": "talksport",
+                "name": "TalkSport"
+            },
+            "author": "Jack Cunningham",
+            "title": "Travis Head stuns over 100,000 India cricket fans with excellent century as Australia close on World Cup...",
+            "description": "Travis Head stunned over 100,000 Indian cricket fans with an excellent century in the World Cup final. The Australian batter became just the third Aussie to score a 100 in a World Cup final as Aust…",
+            "url": "https://talksport.com/sport/1646913/travis-head-century-cricket-world-cup-final-india-australia/",
+            "urlToImage": "https://talksport.com/wp-content/uploads/sites/5/2023/11/Travis-Head.jpg?strip=all&quality=100&w=1142&h=793&crop=1",
+            "publishedAt": "2023-11-19T15:37:14Z",
+            "content": "Travis Head stunned over 100,000 Indian cricket fans with an excellent century in the World Cup final.\r\nThe Australian batter became just the third Aussie to score a 100 in a World Cup final as Austr… [+823 chars]"
+        },
+        {
+            "source": {
+                "id": "bbc-sport",
+                "name": "BBC Sport"
+            },
+            "author": null,
+            "title": "Head's unbeaten 50 puts Australia in strong position",
+            "description": "Watch the best shots from Travis Head's unbeaten 50 for Australia against India in the Cricket World Cup final in Ahmedabad.",
+            "url": "http://www.bbc.co.uk/sport/av/cricket/67467650",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/cpsprodpb/180FC/production/_131765589_p0gtnnpn.jpg",
+            "publishedAt": "2023-11-19T15:07:18.490014Z",
+            "content": "Watch the best shots from Travis Head's unbeaten 50 for Australia against India in the Cricket World Cup final in Ahmedabad. \r\nFOLLOW: India v Australia \r\nAvailable to UK users only."
+        },
+        {
+            "source": {
+                "id": "espn-cric-info",
+                "name": "ESPN Cric Info"
+            },
+            "author": null,
+            "title": "PCB hands Umar Akmal three-year ban from all cricket | ESPNcricinfo.com",
+            "description": "Penalty after the batsman pleaded guilty to not reporting corrupt approaches | ESPNcricinfo.com",
+            "url": "http://www.espncricinfo.com/story/_/id/29103103/pcb-hands-umar-akmal-three-year-ban-all-cricket",
+            "urlToImage": "https://a4.espncdn.com/combiner/i?img=%2Fi%2Fcricket%2Fcricinfo%2F1099495_800x450.jpg",
+            "publishedAt": "2020-04-27T11:41:47Z",
+            "content": "Umar Akmal's troubled cricket career has hit its biggest roadblock yet, with the PCB handing him a ban from all representative cricket for three years after he pleaded guilty of failing to report det… [+1506 chars]"
+        },
+        {
+            "source": {
+                "id": "espn-cric-info",
+                "name": "ESPN Cric Info"
+            },
+            "author": null,
+            "title": "What we learned from watching the 1992 World Cup final in full again | ESPNcricinfo.com",
+            "description": "Wides, lbw calls, swing - plenty of things were different in white-ball cricket back then | ESPNcricinfo.com",
+            "url": "http://www.espncricinfo.com/story/_/id/28970907/learned-watching-1992-world-cup-final-full-again",
+            "urlToImage": "https://a4.espncdn.com/combiner/i?img=%2Fi%2Fcricket%2Fcricinfo%2F1219926_1296x729.jpg",
+            "publishedAt": "2020-03-30T15:26:05Z",
+            "content": "Last week, we at ESPNcricinfo did something we have been thinking of doing for eight years now: pretend-live ball-by-ball commentary for a classic cricket match. We knew the result, yes, but we tried… [+6823 chars]"
+        }
+    ]
+}
