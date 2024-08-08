@@ -32,7 +32,7 @@ const News = (props) => {
     document.title = `SAB-KI-NEWS - ${capitalizeFirstLetter(props.category)}`;
     updateNews();
   }, [])
-  
+
 
   //   handlePrevClick = async () => {
   //     console.log("Previous");
@@ -69,7 +69,7 @@ const News = (props) => {
 
   const fetchMoreData = async () => {
     setPage(page + 1)
-    const url = `https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apiKey=${props.apiKey}&page=${page+1}&pageSize=${props.pageSize}`;
+    const url = `https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apiKey=${props.apiKey}&page=${page + 1}&pageSize=${props.pageSize}`;
     let data = await fetch(url);
     let parsedData = await data.json();
     setArticles(articles.concat(parsedData.articles))
@@ -77,51 +77,51 @@ const News = (props) => {
     // setLoading(false)
   };
 
-    return (
-      <>
-        <h1 className="text-center " style={{ margin: "60px 0px 0px 0px" }}>
-          <strong>
-            SAB-KI-NEWS - Top {capitalizeFirstLetter(props.category)}{" "}
-            Headlines{" "}
-          </strong>
-        </h1>
-        {loading && <Spinner />}
+  return (
+    <>
+      <h1 className="text-center " style={{ margin: "60px 0px 0px 0px" }}>
+        <strong>
+          SAB-KI-NEWS - Top {capitalizeFirstLetter(props.category)}{" "}
+          Headlines{" "}
+        </strong>
+      </h1>
+      {loading && <Spinner />}
 
-        <InfiniteScroll
-          dataLength={articles.length}
-          next={fetchMoreData}
-          hasMore={articles.length !== totalResults}
-          loader={<Spinner />}
-        >
-          <div className="container">
-            <div className="row">
-              {articles.map((element) => {
-                return (
-                  <div className="col-md-4 my-1" key={element.url}>
-                    <NewsItem
-                      title={element.title ? element.title.slice(0, 60) : "Title not found"}
-                      description={
-                        element.description
-                          ? element.description.slice(0, 100)
-                          : "Something error found"
-                      }
-                      imageUrl={
-                        element.urlToImage
-                          ? element.urlToImage
-                          : "https://a4.espncdn.com/combiner/i?img=%2Fi%2Fcricket%2Fcricinfo%2F1219926_1296x729.jpg"
-                      }
-                      newsUrl={element.url}
-                      author={element.author}
-                      date={element.publishedAt}
-                      source={element.source.name}
-                    />
-                  </div>
-                );
-              })}
-            </div>
+      <InfiniteScroll
+        dataLength={articles.length}
+        next={fetchMoreData}
+        hasMore={articles.length !== totalResults}
+        loader={<Spinner />}
+      >
+        <div className="container">
+          <div className="row">
+            {articles.map((element) => {
+              return (
+                <div className="col-md-4 my-1" key={element.url}>
+                  <NewsItem
+                    title={element.title ? element.title.slice(0, 60) : "Title not found"}
+                    description={
+                      element.description
+                        ? element.description.slice(0, 100)
+                        : "Something error found"
+                    }
+                    imageUrl={
+                      element.urlToImage
+                        ? element.urlToImage
+                        : "https://images.pexels.com/photos/534164/pexels-photo-534164.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    }
+                    newsUrl={element.url}
+                    author={element.author}
+                    date={element.publishedAt}
+                    source={element.source.name}
+                  />
+                </div>
+              );
+            })}
           </div>
-        </InfiniteScroll>
-        {/* <div className="container d-flex justify-content-between">
+        </div>
+      </InfiniteScroll>
+      {/* <div className="container d-flex justify-content-between">
           <button
             type="button"
             className="btn btn-dark"
@@ -142,8 +142,8 @@ const News = (props) => {
             Next &rarr;
           </button>
         </div> */}
-      </>
-    );
+    </>
+  );
 }
 
 News.defaultProps = {
